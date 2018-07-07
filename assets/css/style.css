@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+  height: 70px;
+}
+
+#name, #nav {
+  float: left;
+  height: 70px;
+}
+
+#name {
+  padding-top: 3px;
+  width: 33%;
+  background: #4aaaa5;
+  color: #ffffff;
+}
+
+#nav {
+  padding-top: 25px;
+  width: 67%;
+  background: #ffffff;
+  color: #777777;
+  text-align: right;
+}
+
+a {
+  padding: 5px;
+  color: #777777;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+#main_background {
+  background: url("../images/stripes-light.png");
+  background-repeat: repeat;
+}
+
+.main_border {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.wrapper {
+  width: 960px;
+  padding: 15px;
+  margin: 0 auto;
+  display: block;
+  clear: both;
+}
+
+h1, h2 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+  text-align: left;
+  color: #4aaaa5;
+}
+
+#title{
+
+}
+
+#profile_img {
+  float: left;
+  padding-right: 20px;
+}
+
+#title, #main {
+  background-color: #ffffff;
+  border-color: #dddddd;
+}
+
+.grey_div {
+  padding: 2px;
+  background: #cccccc;
+}
+
+.teal_div {
+  padding: 3px;
+  background: #4aaaa5;
+}
+
+
+p {
+  color: #777777;
+  line-height: 1.8;
+  word-spacing: 2px;
+  text-align: left;
+}
+
+footer {
+  font-size: 15px;
+  clear: both;
+  padding: 20px;
+  color: #dddddd;
+  background-color: #666666;
+}
