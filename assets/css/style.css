@@ -5,23 +5,28 @@
 }
 
 header {
-  height: 70px;
+  height: 100px;
+}
+
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #name, #nav {
   float: left;
-  height: 70px;
+  height: 100px;
 }
 
 #name {
-  padding-top: 3px;
+  padding-top: 15px;
   width: 33%;
   background: #4aaaa5;
   color: #ffffff;
 }
 
 #nav {
-  padding-top: 25px;
+  padding-top: 35px;
   width: 67%;
   background: #ffffff;
   color: #777777;
@@ -40,20 +45,22 @@ a:hover {
 
 #main_background {
   background: url("../images/stripes-light.png");
-  background-repeat: repeat;
+  padding-top: 50px;
 }
 
 .main_border {
   border-style: solid;
   border-width: 1px;
+  padding: 20px;
 }
 
 .wrapper {
   width: 960px;
-  padding: 15px;
   margin: 0 auto;
   display: block;
   clear: both;
+  background-color: #ffffff;
+  border-color: #dddddd;
 }
 
 h1, h2 {
@@ -65,18 +72,9 @@ h2 {
   color: #4aaaa5;
 }
 
-#title{
 
-}
-
-#profile_img {
+img {
   float: left;
-  padding-right: 20px;
-}
-
-#title, #main {
-  background-color: #ffffff;
-  border-color: #dddddd;
 }
 
 .grey_div {
@@ -95,6 +93,10 @@ p {
   line-height: 1.8;
   word-spacing: 2px;
   text-align: left;
+}
+
+img {
+  padding: 5px;
 }
 
 footer {
