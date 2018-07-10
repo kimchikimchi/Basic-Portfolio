@@ -66,12 +66,16 @@ input[type=submit] {
 }
 
 .img_portrait {
+  float: left;
   padding: 30px;
 }
 
 .img_portfolio {
   float: left;
-  margin: 25px;
+  width: 230px;
+  height: 130px;
+  margin: 0px;
+  z-index: -1;
 }
 
 .main_border {
@@ -90,6 +94,7 @@ input[type=submit] {
 }
 
 .div_grey {
+
   padding: 2px;
   background: #cccccc;
 }
@@ -100,25 +105,26 @@ input[type=submit] {
 }
 
 .div_pic_container {
+  float: left;
   width: 230px;
   height: 130px;
   margin: 25px;
 }
 
-.div_relative {
+.div_caption {
   position: relative;
-
+  bottom: -60px;
   text-align: center;
-  width: 230px;
   height: 35px;
   background: #4aaaa5;
+  color: #ffffff;
+  display: block;
 }
 
 #name, #nav {
   float: left;
   width: 250;
   height: 80px;
-
 }
 
 #name {
