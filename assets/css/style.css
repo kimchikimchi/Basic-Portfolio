@@ -5,7 +5,7 @@
 }
 
 header {
-  height: 100px;
+  height: 90px;
 }
 
 body {
@@ -25,6 +25,10 @@ h1, h2 {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+h1 {
+  margin: 0px;
+}
+
 h2 {
   text-align: left;
   color: #4aaaa5;
@@ -35,11 +39,6 @@ p {
   line-height: 1.8;
   word-spacing: 2px;
   text-align: left;
-}
-
-img {
-  float: left;
-  padding: 5px;
 }
 
 a {
@@ -64,6 +63,15 @@ input[type=submit] {
   text-align: center;
   color: #ffffff;
   background: #4aaaa5;
+}
+
+.img_portrait {
+  padding: 30px;
+}
+
+.img_portfolio {
+  float: left;
+  margin: 25px;
 }
 
 .main_border {
@@ -91,21 +99,39 @@ input[type=submit] {
   background: #4aaaa5;
 }
 
+.div_pic_container {
+  width: 230px;
+  height: 130px;
+  margin: 25px;
+}
+
+.div_relative {
+  position: relative;
+
+  text-align: center;
+  width: 230px;
+  height: 35px;
+  background: #4aaaa5;
+}
+
 #name, #nav {
   float: left;
-  height: 100px;
+  width: 250;
+  height: 80px;
+
 }
 
 #name {
-  padding-top: 15px;
-  width: 33%;
+  width: 250px;
+  height: 90px;
+  padding-top: 35px;
   background: #4aaaa5;
   color: #ffffff;
 }
 
 #nav {
   padding-top: 35px;
-  width: 67%;
+  width: 710px;
   background: #ffffff;
   color: #777777;
   text-align: right;
@@ -113,5 +139,6 @@ input[type=submit] {
 
 #main_background {
   background: url("../images/sativa.png");
-  padding-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
