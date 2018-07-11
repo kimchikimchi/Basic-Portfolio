@@ -82,6 +82,7 @@ input[type=submit] {
   border-style: solid;
   border-width: 1px;
   padding: 20px;
+  min-height: 500px;
 }
 
 .wrapper {
@@ -94,7 +95,6 @@ input[type=submit] {
 }
 
 .div_grey {
-
   padding: 2px;
   background: #cccccc;
 }
